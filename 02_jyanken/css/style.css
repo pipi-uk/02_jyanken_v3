@@ -1,0 +1,79 @@
+/* メインビジュアル */
+.hero{
+  position: relative;
+  margin-top: 30px;
+}
+.hero img{
+  width: 1200px;
+  width: 100%;
+}
+.hero .copy  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 33px;
+  color: white;
+  font-weight: bold;
+}
+.hero .subcopy{
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 25px;
+  transform: translateX(-50%);
+}
+
+/* あなたのじゃんけん */
+h1{
+  color: white;
+  background-color: black;
+}
+
+
+/* アクティブな画像の枠線を変更 */
+.sub-img li.current img {
+  border: 2px solid blue;
+  transition: border .5s;
+}
+/* レイアウトのためのスタイル */
+.container {
+  margin: 50px auto 0;
+  max-width: 500px;
+}
+.main-img {
+  height: 334px;
+  width: 100%;
+}
+.main-img img {
+  height: auto;
+  width: 100%;
+}
+.sub-img {
+  display: flex;
+  margin-top: 10px;
+}
+.sub-img li {
+  margin-right: 2%;
+  width: calc(96% / 3);
+}
+.sub-img li:nth-child(3n) {
+  margin-right: 0;
+}
+.sub-img li img {
+  border: 2px solid transparent;
+  transition: border .5s;
+}
+.sub-img img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.yourchoice  {
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+}

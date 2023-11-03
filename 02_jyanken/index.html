@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ここから記述します -->
+<!--メインビジュアル  -->
+<div  class="hero">
+  <img src="img/hero_image.jpeg"TOPイメージ">
+  <p  class="copy">
+    じゃんけんゲーム
+ </p>
+ <p class="subcopy">
+  呪術廻戦「1on1」
+ </p>
+</div>
+
+<div  class="rule">
+<h1>あなた</h1>
+
+<div  class="yourchoice">
+  <p>あなたの選択は</p>
+  <h4><img  src="#"alt=""></h4>
+</div>
+
+<div class="container">
+  <!-- <button class="guuu">グー</button>
+  <button class="chokiii">チョキ</button>
+  <button class="paaa">パー</button> -->
+  <!-- メイン画像 -->
+  <div class="main-img js-main-img">
+    <img src="img/guu.jpeg" alt="" />
+  </div>
+  <!-- サムネイル画像 -->
+ <ul class="sub-img js-sub-img" >
+    <!-- 選択されている画像の枠線を変更 -->
+    <li class="current">
+      <img src="img/guu.jpeg" class="gu">
+      <p>グー</p>
+    </li>
+    <li>
+      <img src="img/cyoki.jpeg" class="cyoki">
+      <p>チョキ</p>
+    </li>
+    <li>
+      <img src="img/pa.jpeg"class="pa">
+      <p>パー</p>
+    </li>
+  </ul> 
+</div> 
+
+
+
+
+<div  class="title">
+<h1>あいて</h1>
+<p>あいての選択は</p>
+  <div  class="random">
+    <p>
+      <button>
+      <h3>？</h3>
+    </p>
+  </div>
+</div>
+
+
+<div  class="title">
+<h1>結果</h1>
+<div class="result">
+  <p>
+    <h2>結果</h2>
+  </p>
+</div>
+</div>
+
+
+  <!-- JQueryのJSのコードを先に読み込む -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <!-- JSを紐づける -->
+  <script src="js/kadai.js">  </script>
+</body>
+</html>
